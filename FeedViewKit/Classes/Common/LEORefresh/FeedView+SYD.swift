@@ -27,15 +27,15 @@ extension FeedView {
 }
 
 @objc open class FeedViewEmptyCellViewModel:FeedViewCellViewModel {
-    var imageName:String?
-    var text:String?
-    var linkTitle:String?
-    var link:String?
-    var contentOffsetY:CGFloat = -64
-    var size:CGSize?
-    var showImage:Bool = true
-    var backgroundColor:UIColor?
-    var netExceptionRetryAction:(() -> ())? = nil
+    public var imageName:String?
+    public var text:String?
+    public var linkTitle:String?
+    public var link:String?
+    public var contentOffsetY:CGFloat = -64
+    public var size:CGSize?
+    public var showImage:Bool = true
+    public var backgroundColor:UIColor?
+    public var netExceptionRetryAction:(() -> ())? = nil
     
     open override func cellClass(_ context:Dictionary<String, Any>?) -> FeedViewCell.Type {
         return FeedViewEmptyCell.self
