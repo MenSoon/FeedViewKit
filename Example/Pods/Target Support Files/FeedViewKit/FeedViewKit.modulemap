@@ -1,0 +1,6 @@
+framework module FeedViewKit {
+  umbrella header "FeedViewKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
