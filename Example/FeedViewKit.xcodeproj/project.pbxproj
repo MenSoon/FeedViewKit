@@ -15,6 +15,21 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9A8ED71F4A73606014F0E766 /* Pods_FeedViewKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26F173075FB6E383EC58711 /* Pods_FeedViewKit_Example.framework */; };
+		B4FA442228CCB60C00D7E898 /* DemoFeedPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA441328CCB60C00D7E898 /* DemoFeedPageVC.swift */; };
+		B4FA442328CCB60C00D7E898 /* DemoOneCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA441428CCB60C00D7E898 /* DemoOneCellViewModel.swift */; };
+		B4FA442428CCB60C00D7E898 /* DemoTwoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA441528CCB60C00D7E898 /* DemoTwoCell.swift */; };
+		B4FA442528CCB60C00D7E898 /* DemoSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA441628CCB60C00D7E898 /* DemoSectionHeader.swift */; };
+		B4FA442628CCB60C00D7E898 /* DemoCellThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA441728CCB60C00D7E898 /* DemoCellThree.swift */; };
+		B4FA442728CCB60C00D7E898 /* DemoPageTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA441828CCB60C00D7E898 /* DemoPageTabItemView.swift */; };
+		B4FA442828CCB60C00D7E898 /* DemoSectionHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA441928CCB60C00D7E898 /* DemoSectionHeaderViewModel.swift */; };
+		B4FA442928CCB60C00D7E898 /* DemoFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA441A28CCB60C00D7E898 /* DemoFeedView.swift */; };
+		B4FA442A28CCB60C00D7E898 /* DemoOneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA441B28CCB60C00D7E898 /* DemoOneCell.swift */; };
+		B4FA442B28CCB60C00D7E898 /* DemoPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA441C28CCB60C00D7E898 /* DemoPageVC.swift */; };
+		B4FA442C28CCB60C00D7E898 /* DemoThreeCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA441D28CCB60C00D7E898 /* DemoThreeCellViewModel.swift */; };
+		B4FA442D28CCB60C00D7E898 /* DemoTwoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA441E28CCB60C00D7E898 /* DemoTwoCellViewModel.swift */; };
+		B4FA442E28CCB60C00D7E898 /* DemoFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA441F28CCB60C00D7E898 /* DemoFeedVC.swift */; };
+		B4FA442F28CCB60C00D7E898 /* DemoSectionFooterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA442028CCB60C00D7E898 /* DemoSectionFooterViewModel.swift */; };
+		B4FA443028CCB60C00D7E898 /* DemoSectionFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FA442128CCB60C00D7E898 /* DemoSectionFooter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +58,21 @@
 		73838FFCB76B620AB76CDB0A /* FeedViewKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FeedViewKit.podspec; path = ../FeedViewKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		998C632A5DBED6186C86FBE5 /* Pods-FeedViewKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedViewKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FeedViewKit_Tests/Pods-FeedViewKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B16DD6ED887F1C06FDB9E2B6 /* Pods-FeedViewKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedViewKit_Example.release.xcconfig"; path = "Target Support Files/Pods-FeedViewKit_Example/Pods-FeedViewKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B4FA441328CCB60C00D7E898 /* DemoFeedPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoFeedPageVC.swift; sourceTree = "<group>"; };
+		B4FA441428CCB60C00D7E898 /* DemoOneCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoOneCellViewModel.swift; sourceTree = "<group>"; };
+		B4FA441528CCB60C00D7E898 /* DemoTwoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTwoCell.swift; sourceTree = "<group>"; };
+		B4FA441628CCB60C00D7E898 /* DemoSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSectionHeader.swift; sourceTree = "<group>"; };
+		B4FA441728CCB60C00D7E898 /* DemoCellThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCellThree.swift; sourceTree = "<group>"; };
+		B4FA441828CCB60C00D7E898 /* DemoPageTabItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPageTabItemView.swift; sourceTree = "<group>"; };
+		B4FA441928CCB60C00D7E898 /* DemoSectionHeaderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSectionHeaderViewModel.swift; sourceTree = "<group>"; };
+		B4FA441A28CCB60C00D7E898 /* DemoFeedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoFeedView.swift; sourceTree = "<group>"; };
+		B4FA441B28CCB60C00D7E898 /* DemoOneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoOneCell.swift; sourceTree = "<group>"; };
+		B4FA441C28CCB60C00D7E898 /* DemoPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPageVC.swift; sourceTree = "<group>"; };
+		B4FA441D28CCB60C00D7E898 /* DemoThreeCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoThreeCellViewModel.swift; sourceTree = "<group>"; };
+		B4FA441E28CCB60C00D7E898 /* DemoTwoCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTwoCellViewModel.swift; sourceTree = "<group>"; };
+		B4FA441F28CCB60C00D7E898 /* DemoFeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoFeedVC.swift; sourceTree = "<group>"; };
+		B4FA442028CCB60C00D7E898 /* DemoSectionFooterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSectionFooterViewModel.swift; sourceTree = "<group>"; };
+		B4FA442128CCB60C00D7E898 /* DemoSectionFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoSectionFooter.swift; sourceTree = "<group>"; };
 		B673B7A6730CBDD165FAB46E /* Pods-FeedViewKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedViewKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-FeedViewKit_Tests/Pods-FeedViewKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C878AC31BD7DF37F03C4C072 /* Pods_FeedViewKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeedViewKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26F173075FB6E383EC58711 /* Pods_FeedViewKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeedViewKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +123,7 @@
 		607FACD21AFB9204008FA782 /* Example for FeedViewKit */ = {
 			isa = PBXGroup;
 			children = (
+				B4FA441228CCB60C00D7E898 /* demo */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -157,6 +188,28 @@
 				B673B7A6730CBDD165FAB46E /* Pods-FeedViewKit_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4FA441228CCB60C00D7E898 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				B4FA441328CCB60C00D7E898 /* DemoFeedPageVC.swift */,
+				B4FA441428CCB60C00D7E898 /* DemoOneCellViewModel.swift */,
+				B4FA441528CCB60C00D7E898 /* DemoTwoCell.swift */,
+				B4FA441628CCB60C00D7E898 /* DemoSectionHeader.swift */,
+				B4FA441728CCB60C00D7E898 /* DemoCellThree.swift */,
+				B4FA441828CCB60C00D7E898 /* DemoPageTabItemView.swift */,
+				B4FA441928CCB60C00D7E898 /* DemoSectionHeaderViewModel.swift */,
+				B4FA441A28CCB60C00D7E898 /* DemoFeedView.swift */,
+				B4FA441B28CCB60C00D7E898 /* DemoOneCell.swift */,
+				B4FA441C28CCB60C00D7E898 /* DemoPageVC.swift */,
+				B4FA441D28CCB60C00D7E898 /* DemoThreeCellViewModel.swift */,
+				B4FA441E28CCB60C00D7E898 /* DemoTwoCellViewModel.swift */,
+				B4FA441F28CCB60C00D7E898 /* DemoFeedVC.swift */,
+				B4FA442028CCB60C00D7E898 /* DemoSectionFooterViewModel.swift */,
+				B4FA442128CCB60C00D7E898 /* DemoSectionFooter.swift */,
+			);
+			path = demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,10 +324,22 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FeedViewKit_Example/Pods-FeedViewKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FeedViewKit/FeedViewKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxGesture/RxGesture.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeedViewKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxGesture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -357,8 +422,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4FA442F28CCB60C00D7E898 /* DemoSectionFooterViewModel.swift in Sources */,
+				B4FA442D28CCB60C00D7E898 /* DemoTwoCellViewModel.swift in Sources */,
+				B4FA442E28CCB60C00D7E898 /* DemoFeedVC.swift in Sources */,
+				B4FA442328CCB60C00D7E898 /* DemoOneCellViewModel.swift in Sources */,
+				B4FA442428CCB60C00D7E898 /* DemoTwoCell.swift in Sources */,
+				B4FA442B28CCB60C00D7E898 /* DemoPageVC.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				B4FA442A28CCB60C00D7E898 /* DemoOneCell.swift in Sources */,
+				B4FA442828CCB60C00D7E898 /* DemoSectionHeaderViewModel.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				B4FA442928CCB60C00D7E898 /* DemoFeedView.swift in Sources */,
+				B4FA442628CCB60C00D7E898 /* DemoCellThree.swift in Sources */,
+				B4FA442228CCB60C00D7E898 /* DemoFeedPageVC.swift in Sources */,
+				B4FA442528CCB60C00D7E898 /* DemoSectionHeader.swift in Sources */,
+				B4FA443028CCB60C00D7E898 /* DemoSectionFooter.swift in Sources */,
+				B4FA442C28CCB60C00D7E898 /* DemoThreeCellViewModel.swift in Sources */,
+				B4FA442728CCB60C00D7E898 /* DemoPageTabItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +585,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FeedViewKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -520,6 +601,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FeedViewKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

@@ -4,12 +4,18 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - FeedViewKit (0.1.0)
+  - FeedViewKit (1.0.0):
+    - MJRefresh (= 3.2.0)
+    - RxCocoa (= 5.1.1)
+    - RxGesture (= 3.0.2)
+    - RxSwift (= 5.1.1)
+    - SnapKit
   - iOSSnapshotTestCase (8.0.0):
     - iOSSnapshotTestCase/SwiftSupport (= 8.0.0)
   - iOSSnapshotTestCase/Core (8.0.0)
   - iOSSnapshotTestCase/SwiftSupport (8.0.0):
     - iOSSnapshotTestCase/Core
+  - MJRefresh (3.2.0)
   - Nimble (10.0.0)
   - Nimble-Snapshots (9.4.0):
     - Nimble-Snapshots/Core (= 9.4.0)
@@ -17,6 +23,16 @@ PODS:
     - iOSSnapshotTestCase (~> 8.0)
     - Nimble
   - Quick (2.2.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxGesture (3.0.2):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SnapKit (5.6.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -29,9 +45,15 @@ SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
     - iOSSnapshotTestCase
+    - MJRefresh
     - Nimble
     - Nimble-Snapshots
     - Quick
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - SnapKit
 
 EXTERNAL SOURCES:
   FeedViewKit:
@@ -39,11 +61,17 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  FeedViewKit: de22cbd20bbaa95381674efee15b0f92968a8e77
+  FeedViewKit: ba51a776c331af39b0cb322929ffd4d12675bdbb
   iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   Nimble-Snapshots: ef281b908c604f78c8313587e25ea92c8ab513d7
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
 PODFILE CHECKSUM: a221fd40f86a92698c6948a7f0fab2d4a4427827
 

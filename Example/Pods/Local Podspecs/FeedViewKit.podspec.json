@@ -1,9 +1,9 @@
 {
   "name": "FeedViewKit",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of FeedViewKit.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/2283312765@qq.com/FeedViewKit",
+  "homepage": "https://github.com/MenSoon/FeedViewKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,39 @@
     "2283312765@qq.com": "1242384226@qq.com"
   },
   "source": {
-    "git": "https://github.com/2283312765@qq.com/FeedViewKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/MenSoon/FeedViewKit.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "FeedViewKit/Classes/**/*"
+  "swift_versions": [
+    "4.0",
+    "5.0"
+  ],
+  "source_files": "FeedViewKit/Classes/**/*",
+  "resource_bundles": {
+    "FeedViewKit": [
+      "FeedViewKit/Assets/*.png",
+      "FeedViewKit/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "RxSwift": [
+      "5.1.1"
+    ],
+    "RxCocoa": [
+      "5.1.1"
+    ],
+    "RxGesture": [
+      "3.0.2"
+    ],
+    "MJRefresh": [
+      "3.2.0"
+    ],
+    "SnapKit": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }

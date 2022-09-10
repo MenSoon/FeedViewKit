@@ -21,22 +21,25 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/2283312765@qq.com/FeedViewKit'
+  s.homepage         = 'https://github.com/MenSoon/FeedViewKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '2283312765@qq.com' => '1242384226@qq.com' }
-  s.source           = { :git => 'https://github.com/2283312765@qq.com/FeedViewKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MenSoon/FeedViewKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.swift_versions = ['4.0', '5.0']
 
   s.source_files = 'FeedViewKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'FeedViewKit' => ['FeedViewKit/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'FeedViewKit' => ['FeedViewKit/Assets/*.png', 'FeedViewKit/Assets/**/*']
+   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'RxSwift',    '5.1.1'
+  s.dependency 'RxCocoa',    '5.1.1'
+  s.dependency 'RxGesture', '3.0.2'
+  s.dependency 'MJRefresh', '3.2.0'
+  s.dependency 'SnapKit'
 end
