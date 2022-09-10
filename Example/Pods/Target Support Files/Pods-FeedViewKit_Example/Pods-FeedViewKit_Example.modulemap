@@ -1,0 +1,6 @@
+framework module Pods_FeedViewKit_Example {
+  umbrella header "Pods-FeedViewKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

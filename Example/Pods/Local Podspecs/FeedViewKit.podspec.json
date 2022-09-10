@@ -1,0 +1,22 @@
+{
+  "name": "FeedViewKit",
+  "version": "0.1.0",
+  "summary": "A short description of FeedViewKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/2283312765@qq.com/FeedViewKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2283312765@qq.com": "1242384226@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/2283312765@qq.com/FeedViewKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "FeedViewKit/Classes/**/*"
+}
