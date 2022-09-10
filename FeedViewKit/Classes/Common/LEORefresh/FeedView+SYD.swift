@@ -26,7 +26,7 @@ extension FeedView {
     }
 }
 
-@objc class FeedViewEmptyCellViewModel:FeedViewCellViewModel {
+@objc open class FeedViewEmptyCellViewModel:FeedViewCellViewModel {
     var imageName:String?
     var text:String?
     var linkTitle:String?
@@ -37,7 +37,7 @@ extension FeedView {
     var backgroundColor:UIColor?
     var netExceptionRetryAction:(() -> ())? = nil
     
-    override func cellClass(_ context:Dictionary<String, Any>?) -> FeedViewCell.Type {
+    open override func cellClass(_ context:Dictionary<String, Any>?) -> FeedViewCell.Type {
         return FeedViewEmptyCell.self
     }
 }
