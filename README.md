@@ -22,7 +22,7 @@ pod 'FeedViewKit'
 
 ## Author
 
-2283312765@qq.com, 1242384226@qq.com
+2283312765@qq.com
 
 ## License
 

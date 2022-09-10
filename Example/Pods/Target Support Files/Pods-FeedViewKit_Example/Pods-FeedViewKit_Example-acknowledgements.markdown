@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## FeedViewKit
 
-Copyright (c) 2022 2283312765@qq.com <1242384226@qq.com>
+Copyright (c) 2022 2283312765@qq.com 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -108,7 +108,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## SnapKit
 
-Copyright (c) 2011-Present SnapKit Shon - https://github.com/SnapKit
+Copyright (c) 2011-Present SnapKit Team - https://github.com/SnapKit
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
