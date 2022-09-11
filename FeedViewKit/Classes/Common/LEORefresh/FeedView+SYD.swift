@@ -10,11 +10,11 @@ import Foundation
 import RxSwift
 
 extension FeedView {
-    func addRefreshHeader() {
+    open func addRefreshHeader() {
         self.addRefreshHeader(SYDRefreshHeader.self)
     }
     
-    func addRefreshFooter() {
+    open func addRefreshFooter() {
         self.addRefreshFooter(SYDRefreshFooter.self, callback: { footer in
             guard let footer = footer as? SYDRefreshFooter else {
                 return

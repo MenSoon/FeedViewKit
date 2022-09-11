@@ -484,7 +484,6 @@
 		B5C823D1DE4B97CC0BE378353DDD0E78 /* Pods-FeedViewKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0F669F207CC14F7051627583ABF6E3 /* Pods-FeedViewKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B678DD57F5FE2E066CDBD6F8CEDA83BB /* Sink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CDD77A61429AA0A53BF3E8715543D0 /* Sink.swift */; };
 		B67B11DD866B7F5DE61D055BB25F9CA6 /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D506616CD93D5CC542FCF6CC45CE38C /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B77B825AA2B571119FCC4A04C6707194 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8976351A8B151A1ED6747283E9AB2308 /* String+Ext.swift */; };
 		B7A11EAD6664A36870A17D4E503A5142 /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A403BA2B6139570282502224A9D95CC9 /* DisposeBag.swift */; };
 		B7B0369697806936F6EF45EB9169E29F /* SingleAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC71683488F969EBC5F68CF68A189592 /* SingleAsync.swift */; };
 		B7C1B2A7FFE17013C811B4461ABCC46B /* UIAlertAction+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3F22C2BB3E029D5B7CC2B5A55A4749 /* UIAlertAction+Rx.swift */; };
@@ -1235,7 +1234,6 @@
 		88F343A1C6961E7395DCB3DFCE66ED6C /* XCTestObservationCenter+CurrentTestCaseTracker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestObservationCenter+CurrentTestCaseTracker.m"; path = "Nimble_Snapshots/XCTestObservationCenter+CurrentTestCaseTracker.m"; sourceTree = "<group>"; };
 		89380B8D0C23612A43337D1319B80EAA /* RxTableViewDataSourceType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RxTableViewDataSourceType.swift; path = RxCocoa/iOS/Protocols/RxTableViewDataSourceType.swift; sourceTree = "<group>"; };
 		8955A551A788AA5E64DFFA2E195030C4 /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Sources/Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
-		8976351A8B151A1ED6747283E9AB2308 /* String+Ext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		89D6F8581198FF1AE63D727996AEE185 /* Reduce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reduce.swift; path = RxSwift/Observables/Reduce.swift; sourceTree = "<group>"; };
 		8AE4E3460E01FBD257137C99F46824F8 /* ObservableType+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableType+Extensions.swift"; path = "RxSwift/ObservableType+Extensions.swift"; sourceTree = "<group>"; };
 		8B6E935C596C216F72617D5543EFCDCA /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
@@ -2692,7 +2690,6 @@
 				CE5832DD14C520DC113FD35AF83E437A /* Dictionary+Ext.swift */,
 				6A69202D9F3A0552BAFF1930D6636D20 /* Number+Ext.swift */,
 				456436CBFEB23F3BD1AB130FB1CF6E2D /* Object+Ext.swift */,
-				8976351A8B151A1ED6747283E9AB2308 /* String+Ext.swift */,
 				4B17F2FDE2B97BD72DDF5B3D860D12FA /* UIView+Ext.swift */,
 				DB37C32E56FC656EECC808A89513C42F /* Utils.swift */,
 				276F77580BECB796B64B9F24F0D16520 /* FeedPageView */,
@@ -3546,7 +3543,6 @@
 				B8BFED59B034E2ABC0F34C235C10382C /* PageView.swift in Sources */,
 				2F0C269E451F31BB4031B420E33E7981 /* PageView+Scroll.swift in Sources */,
 				2724B7DC49037F09A2F075CC18610D18 /* ReplaceMe.swift in Sources */,
-				B77B825AA2B571119FCC4A04C6707194 /* String+Ext.swift in Sources */,
 				98E3B13F589FF5E61B60D5859A10C4E2 /* SYDRefreshFooter.m in Sources */,
 				B175A315079207EE9B863BDA311D7E5A /* SYDRefreshHeader.m in Sources */,
 				B1ED1699AEE397C57AF77309AB74746B /* UIScrollView+LEOExtension.m in Sources */,
